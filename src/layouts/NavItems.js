@@ -36,7 +36,7 @@ function NavItems() {
               <a href="#">Contact Us</a>
             </Nav.Link>
             <Nav.Link>
-              <a href="#">Login</a>
+              <Link to="/login">Login</Link>
             </Nav.Link>
             <Nav.Link>
               <a href="#">Try Free</a>
