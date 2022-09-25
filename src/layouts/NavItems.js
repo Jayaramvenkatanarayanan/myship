@@ -4,20 +4,24 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "../css/navbar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function NavItems() {
   return (
     <Navbar
+      sticky="top"
       collapseOnSelect
       expand="lg"
-      bg="dark"
-      className="navbar navbarColor"
-      variant="dark"
+      className="navbar navbarColor breadcrumbs"
+      variant="light"
     >
       <Container>
         <Navbar.Brand href="#home">MY Ship</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
+          <span>
+            <FontAwesomeIcon icon="bars" color="#20FC8F" size="2x" />
+          </span>
           <Nav className="justify-content-end flex-grow-1 pe-3">
             <Nav.Link>
               <Link to="/">Home</Link>
