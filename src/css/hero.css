@@ -53,6 +53,14 @@
     box-shadow: none;
   }
 
+  .hero form .btn-primary {
+    background-color: var(--color-primary);
+    padding: 15px 30px;
+  }
+
+  .hero form .btn-primary:hover {
+    background-color: #2756ff;
+  }
 
   .hero .stats-item {
     padding: 30px;
