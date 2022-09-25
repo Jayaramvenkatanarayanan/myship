@@ -45,3 +45,12 @@ h5,
 h6 {
   font-family: var(--font-primary);
 }
+
+.hero form .btn-primary {
+  background-color: var(--color-primary);
+  padding: 15px 30px;
+}
+
+.hero form .btn-primary:hover {
+  background-color: #2756ff;
+}

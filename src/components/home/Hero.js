@@ -1,7 +1,7 @@
 import React from "react";
 // import Container from "react-bootstrap/Container";
-import "../css/hero.css";
-import HeroImage from "../assets/hero-img.svg";
+import "../../css/hero.css";
+import HeroImage from "../../assets/hero-img.svg";
 import CountUp from "react-countup";
 
 export default function Hero() {
