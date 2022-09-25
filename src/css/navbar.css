@@ -1,0 +1,13 @@
+.navbar {
+    padding: 0;
+    transition: all 0.4s;
+  }
+.navbar a{
+    color: white;
+}
+.navbar a:hover{
+    color: #D9B35C;
+}
+.navbarColor{
+    background-color: #263642;
+}
