@@ -39,7 +39,7 @@ function NavItems() {
               <Link to="/login">Login</Link>
             </Nav.Link>
             <Nav.Link>
-              <a href="#">Try Free</a>
+              <Link to="/Dashboard">Try Free</Link>
             </Nav.Link>
             <Outlet />
           </Nav>

@@ -54,3 +54,14 @@ h6 {
 .hero form .btn-primary:hover {
   background-color: #2756ff;
 }
+.dashboard{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.btnColor{
+  color:white;
+}
+
+.btnColor:hover{
+  color:white;
+}
