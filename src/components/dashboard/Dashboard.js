@@ -70,7 +70,7 @@ export default function Dashboard() {
           <h3>Shipment Details</h3>
           <div className="mb-2">
             <Button variant="primary" size="lg">
-              <Link to="/newOrder" className="btnColor">
+              <Link to="/Order" className="btnColor">
                 New Order
               </Link>
             </Button>

@@ -10,6 +10,7 @@ import Button from "react-bootstrap/Button";
 export default function Order() {
   return (
     <Container className="dashboard">
+      <h3 className="dashboardFormTxt">New Order</h3>
       <Row>
         <Col>
           <Form.Label htmlFor="basic-url">OrderId</Form.Label>
