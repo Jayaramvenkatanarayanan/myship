@@ -6,7 +6,7 @@ import Login from "./components/login/Login";
 import RegisterPage from "./components/login/RegisterPage";
 import NotFoundPage from "./components/NotFoundPage";
 import Dashboard from "./components/dashboard/Dashboard";
-import NewShipment from "./components/dashboard/newShipment";
+import Order from "./components/dashboard/Order";
 export default function App() {
   return (
     <Routes>
@@ -15,7 +15,7 @@ export default function App() {
       <Route path="login" element={<Login />} />
       <Route path="signUp" element={<RegisterPage />} />
       <Route path="dashboard" element={<Dashboard />} />
-      <Route path="newShipment" element={<NewShipment />} />
+      <Route path="Order" element={<Order />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );

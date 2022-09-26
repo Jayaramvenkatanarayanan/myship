@@ -2,7 +2,10 @@ import React from "react";
 
 export default function NotFoundPage() {
   return (
-    <div className="d-flex justify-content-center align-items-center" id="main">
+    <div
+      className="d-flex justify-content-center align-items-center dashboard"
+      id="main"
+    >
       <h1 className="mr-3 pr-3 align-top border-right inline-block align-content-center">
         404 |
       </h1>
