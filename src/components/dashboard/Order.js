@@ -7,7 +7,7 @@ import InputGroup from "react-bootstrap/InputGroup";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
-export default function newShipment() {
+export default function Order() {
   return (
     <Container className="dashboard">
       <Row>
